@@ -29,7 +29,8 @@ export class App extends Component {
         id: nanoid(),
         number: this.state.number,
       });
-
+      localStorage.clear();
+      localStorage.setItem('temp', JSON.stringify(temp));
       this.setState({ contacts: temp });
     } else alert(`${this.state.name} is already in contact`);
   };
@@ -78,9 +79,15 @@ export class App extends Component {
       }
       return true;
     });
-
+    localStorage.clear();
+    localStorage.setItem('temp', JSON.stringify(temp2));
     this.setState({ contacts: temp2 });
   };
+  componentDidMount() {
+    let temp = JSON.parse(localStorage.getItem('temp'));
+
+    this.setState({ contacts: temp });
+  }
   render() {
     return (
       <div>
