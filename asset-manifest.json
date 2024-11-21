@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/daszai-goit-react-hw-03-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/daszai-goit-react-hw-03-phonebook/static/js/main.a37f5a2a.js",
+    "main.js": "/daszai-goit-react-hw-03-phonebook/static/js/main.dbe4acca.js",
     "index.html": "/daszai-goit-react-hw-03-phonebook/index.html",
     "main.7acaea2f.css.map": "/daszai-goit-react-hw-03-phonebook/static/css/main.7acaea2f.css.map",
-    "main.a37f5a2a.js.map": "/daszai-goit-react-hw-03-phonebook/static/js/main.a37f5a2a.js.map"
+    "main.dbe4acca.js.map": "/daszai-goit-react-hw-03-phonebook/static/js/main.dbe4acca.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.a37f5a2a.js"
+    "static/js/main.dbe4acca.js"
   ]
 }
