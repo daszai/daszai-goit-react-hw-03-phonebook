@@ -84,6 +84,9 @@ export class App extends Component {
     this.setState({ contacts: temp2 });
   };
   componentDidMount() {
+    if (localStorage.getItem('temp') === null) {
+      return;
+    }
     let temp = JSON.parse(localStorage.getItem('temp'));
 
     this.setState({ contacts: temp });
